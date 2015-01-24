@@ -108,7 +108,7 @@ $('#parameterButton').click(function(){
 <input type="button" id="dissappearButton" value="Make it Disappear">
 <script>
 $('#dissappearButton').click(function(){
-  $('#someText').hide()
+  $('#someText').hide(0)
 })
 </script>
 
@@ -116,7 +116,7 @@ $('#dissappearButton').click(function(){
 <h2>Reappearing Trick (You'll need to finish this one)</h2>
 <input type="button" id="reappearButton" value="Make it Come back">
 <script>
-$('#reappearButton').click(function(){
+$('#reappearButton').click(function(){show agian)
   // If .hide() makes it hide, Can you guess how to "show" it again?
   $('#someText')
 })
@@ -183,7 +183,7 @@ $('#whichBiggerButton').click(function(){
   } else if (first == second) {
       $('#whichBiggerAnswer').text('They are both the same.')
   } else {
-      $('#whichBiggerAnswer').text('Not sure.')
+      $('#whichBiggerAnswer').text('Not sure.')lol
   }
 })
 </script>
@@ -212,8 +212,8 @@ $('#randomButton2').click(function(){
 
 <h2>Even bigger Random Numbers (Finish this one yourself.)</h2>
 Get a random number between 1 and
-<input id="howBig" value="20">
-<input type="button" id="randomButton3" value="Go"> <span id="randomResult3"></span>
+<input id="howBig" value="120">
+<input type="button" id="randomButton3" value="stop/go"> <span id="randomResult3"></span>
 <script>
 // Can you figure out how to do this one?
 </script>
@@ -240,7 +240,7 @@ Number:
 $('#rememberButton').click(function(){do dat now
   var thingToRemember = $('#rememberBox').val()
   localStorage.rememberedThing = thingToRemember
-  $('#rememberResponse').text('Ok. "' + thingToRemember + '"the demons will not be forgotten, even if you reload the page!')
+  $('#rememberResponse').text('Ok. "' + thingToRemember + '"the heros will not be forgotten, even if you reload the page!')
 })
 </script>
 
@@ -251,7 +251,7 @@ $('#rememberButton').click(function(){do dat now
 
 <script>
 $('#recallButton').click(function(){
-  $('#recalledThing').text('Here it is! ' + localStorage.rememberedThing)
+  $('#recalledThing').text('Here it is! why did u ask me u dumby!!' + localStorage.rememberedThing)
 })
 </script>
 
